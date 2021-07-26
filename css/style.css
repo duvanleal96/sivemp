@@ -1,0 +1,131 @@
+
+
+::-webkit-input-placeholder { color: #797979; }
+::-moz-placeholder { /* Firefox 19+ */ color: #797979; }
+  body {
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    background-image: url(../images/fondo.jpg);
+    background-size:100%;
+    min-height:100%;
+    background-size:cover;
+  
+  }
+  
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+    
+  }
+  
+  #contenido {
+    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    padding: 0px;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  #footer {
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    padding: 15px;
+    text-align: center;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  ::-webkit-input-placeholder { color: #797979; } 
+
+ 
+  
+  
+  
+  /* FORM TYPOGRAPHY*/
+  
+  input {
+    background-color: rgb(82, 10, 10);
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    transition: all 0.3s ;
+  }
+  
+  input:hover  {
+    background-color: rgb(202, 9, 9);
+  }
+  
+  input[type=text ] , [type=password] , [type=email] , [type="date"] {
+    background-color: red;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid #f6f6f6;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  
+  
+  input[type=text]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid red;
+  }
+  
+  input[type=text]:placeholder {
+    color: rgb(57, 211, 30);
+  }
+  
+  
+  
+  /* Simple CSS3 Fade-in Animation */
+  @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  
+  /* Simple CSS3 Fade-in Animation */
+  .underlineHover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    content: "";
+    transition: width 0.2s;
+  }
+  
+  .underlineHover:hover {
+    color: #0d0d0d;
+  }
+  
+  .underlineHover:hover:after{
+    width: 100%;
+  }
+  
+  
+  
+  #icon {
+    width:60%;
+  }
+  
